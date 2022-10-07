@@ -1,0 +1,107 @@
+    /*******************************
+	All Responsive Code
+*******************************/
+    
+    @media(max-width:991px) {
+        button.navbar-toggler .collapse i {
+            background: #000;
+            color: #fff;
+            padding: 7px 16px;
+        }
+        .main-menu ul.navbar-nav {
+            background: rgba(0, 0, 0, .8);
+            width: 100%;
+        }
+        .main-menu ul.navbar-nav li a {
+            padding: 10px 0;
+        }
+        .header-content h1 {
+            font-size: 45px;
+        }
+        .header-content p {
+            font-size: 14px;
+        }
+        .about-right p {
+           
+            line-height: 25px;
+            margin-top: 12px;
+        }
+        .counter-box {
+            margin-bottom: 35px;
+        }
+        .blog-item {
+            margin-bottom: 35px;
+        }
+      
+    }
+    
+    @media(max-width:767px) {
+        .about-right h3 {
+            margin-top: 50px;
+        }
+        .vedio_area h2 {
+            font-size: 24px;
+        }
+        .right-skill h3 {
+            margin-top: 50px;
+        }
+        .portfolio-item img {
+            width: 100%;
+        }
+        .blog-item img {
+            width: 100%;
+        }
+        .about-left img {
+            margin-top: 30px;
+        }
+      
+    }
+    
+    @media(max-width:576px) {
+        .header-content h1 {
+            font-size: 35px;
+        }
+        .header-content p {
+            font-size: 12px;
+        }
+        .header-content a {
+          
+            font-size: 20px;
+            padding: 6px 22px;
+           
+        }
+        .footer-icon ul li {
+            display: inline;
+        }
+        .footer-icon a {
+            text-align: center;
+        }
+        .footer .text-right {
+            text-align: center !important;
+            margin-top: 20px;
+        }
+    }
+    @media(max-width:482px) {
+        .header-content h1 {
+            font-size: 25px;
+        }
+        .header-content p {
+            font-size: 10px;
+        }
+        .header-content a {
+          
+            font-size: 15px;
+            padding: 4px 18px;
+           
+        }
+        .footer-icon ul li {
+            display: inline;
+        }
+        .footer-icon a {
+            text-align: center;
+        }
+        .footer .text-right {
+            text-align: center !important;
+            margin-top: 20px;
+        }
+    }
